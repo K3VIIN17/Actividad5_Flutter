@@ -8,6 +8,30 @@ class servicio extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.only(bottom: 20.0),
+            child: Text(
+              "Servicios",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 80, color: Color.fromARGB(255, 243, 135, 33)),
+              textScaleFactor: 1,
+            ),
+          ),
+          Row(
+            children: [
+              Expanded(
+                child: Image(
+                  image: NetworkImage(
+                      'https://cdn-icons-png.flaticon.com/512/2597/2597480.png'),
+                  height: 181,
+                ),
+              ),
+            ],
+          ),
+          ListTile(
+            title: Text(''),
+          ),
           ListTile(
             leading: Icon(Icons.call),
             title: Text('Servicio a domicilio'),

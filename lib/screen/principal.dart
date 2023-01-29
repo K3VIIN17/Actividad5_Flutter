@@ -52,9 +52,9 @@ class Principal extends StatelessWidget {
           /*3*/
           Icon(
             Icons.star,
-            color: Colors.red[500],
+            color: Color.fromARGB(255, 244, 136, 54),
           ),
-          const Text('41'),
+          const Text('5'),
         ],
       ),
     );
